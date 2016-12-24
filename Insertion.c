@@ -1,3 +1,4 @@
+//由左到右，逐一把數字插入到目前已排序的陣列當中。需將大量數字往右挪，以騰出空間插入數字。
 #include <stdio.h>
 #define arrsize 6
 int main(){
