@@ -1,3 +1,4 @@
+//由左到右，相鄰兩兩比較，較大者往右挪，最後最大值會出現在陣列右端。遞迴處理尚未排序的 N-1 個元素。
 #include <stdio.h>
 #define arrsize 6
 int main(){
