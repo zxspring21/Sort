@@ -1,3 +1,4 @@
+//掃描一遍所有數字，找到最小值，挪至陣列左端。遞迴處理尚未排序的 N-1 個元素。
 #include <stdio.h>
 #define arrsize 6
 int main(){
@@ -14,7 +15,7 @@ int main(){
       arr[j] = arr[min];
       arr[min] = tmp;
    }
-   printf("%\n");
+   printf("\n");
    for(i=0;i<arrsize;i++){
       printf("%d ",arr[i]);
    }
